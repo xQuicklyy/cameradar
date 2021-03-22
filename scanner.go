@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	defaultCredentialDictionaryPath = "${GOPATH}/src/github.com/Ullaakut/cameradar/dictionaries/credentials.json"
-	defaultRouteDictionaryPath      = "${GOPATH}/src/github.com/Ullaakut/cameradar/dictionaries/routes"
+	defaultCredentialDictionaryPath = "./credentials.json"
+	defaultRouteDictionaryPath      = "./routes"
 )
 
 // Scanner represents a cameradar scanner. It scans a network and
