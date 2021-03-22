@@ -11,8 +11,8 @@ import (
 )
 
 const (
-	defaultCredentialDictionaryPath = "./credentials.json"
-	defaultRouteDictionaryPath      = "./routes"
+	defaultCredentialDictionaryPath = "./dictionaries/credentials.json"
+	defaultRouteDictionaryPath      = "./dictionaries/routes"
 )
 
 // Scanner represents a cameradar scanner. It scans a network and
